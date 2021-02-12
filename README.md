@@ -6,7 +6,9 @@
 **đky tài khoản trước rồi đăng ký : dùng Firebase. https://firebase.google.com/
 **Thắc mắc gửi qua Mail : hoaitugl@gmail.com.
 ** https://www.facebook.com/TuThiHoaiTu79/
-**Nhớ để dùng file sqlite tìm kiếm thì phải để trong thư mục asset của bài 
+**Nhớ để dùng file sqlite tìm kiếm thì phải để trong thư mục asset của bài.
+****Xem tham khảo thêm bài qlntUsers**
+
 
 
 
