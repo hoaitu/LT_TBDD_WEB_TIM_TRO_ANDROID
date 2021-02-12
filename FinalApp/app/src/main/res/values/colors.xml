@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#B5E6EC</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#36B5EC</color>
+    <color name="black">#000000</color>
+    <color name="colorGreen">#0e0e0e</color>
+    <color name="color1">#8fe456</color>
+    <color name="color2">#87CEEB</color>
+    <color name="color3">#1C1C1C</color>
+    <color name="color_white">#ffffff</color>
+    <color name="color_red">#e20b70</color>
+    <color name="color_4">#5beccf</color>
+    <color name="color_gray">#666666</color>
+    <color name="color5">#3399CC</color>
+    <color name="login_form_details">#FFFF</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+
+    <color name="address">#2F7092</color>
+    <color name="followers">#0D5D98</color>
+    <color name="headings">#3797CF</color>
+    <color name="solidCircle">#AAFFFFFF</color>
+    <color name="circleBorder">#50FFFFFF</color>
+    <color name="gradEnd">#67EFC8</color>
+    <color name="gradStart">#63C9FF</color>
+    <color name="followersBg">#65DCE5</color>
+    <color name="followingBg">#49BEFF</color>
+    <color name="grey">#E5E5E5</color>
+
+    <color name="white">#FFFFFF</color>
+</resources>
