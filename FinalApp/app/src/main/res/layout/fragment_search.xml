@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SearchView
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RadioGroup
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:checked="true"
+            android:id="@+id/rbtn_timtro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tìm trọ" />
+
+        <RadioButton
+            android:id="@+id/rbtn_oghep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="O ghép" />
+    </RadioGroup>
+    <RadioButton
+        android:id="@+id/rbtn_tinhhuyen"
+        android:text="Tìm theo Tỉnh Huyện"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </RadioButton>
+    <LinearLayout
+        android:id="@+id/li_tinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="@string/tinh"
+            android:layout_weight="1"
+            android:textColor="@color/color3" />
+        <Spinner
+
+            android:id="@+id/spiner_tinh_search"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ></Spinner>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/li_huyen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:text="@string/huyen"
+            android:textColor="@color/color3" />
+        <Spinner
+            android:id="@+id/spiner_huyen_search"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ></Spinner>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_timkiem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tìm Kiếm"
+            android:textColor="@color/color_white"
+            app:backgroundTint="#4CAF50">
+
+        </Button>
+    </LinearLayout>
+
+
+        <ListView
+        android:id="@+id/list_item_search"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+            android:paddingBottom="60dp">
+
+    </ListView>
+
+
+
+</LinearLayout>

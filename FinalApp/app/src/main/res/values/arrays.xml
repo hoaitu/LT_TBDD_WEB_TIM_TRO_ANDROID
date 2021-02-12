@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dientich">
+        <item>m²</item>
+        <item>cm²</item>
+        <item>km²</item>
+    </string-array>
+    <string-array name="gioi_tinh">
+        <item>Nam</item>
+        <item>Nữ</item>
+    </string-array>
+    <string-array name="gia_tien">
+        <item>/Ngày</item>
+        <item>/Tuần</item>
+        <item>/Tháng</item>
+    </string-array>
+    <string-array name="hinh_thuc_dang">
+        <item>Cho thuê phòng trọ</item>
+        <item>Tìm người ở ghép</item>
+    </string-array>
+    <string-array name="loai_tin">
+        <item>Thường</item>
+        <item>Vip</item>
+    </string-array>
+</resources>
