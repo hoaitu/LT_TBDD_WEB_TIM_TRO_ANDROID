@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "955817140075",
+    "firebase_url": "https://qlntusers.firebaseio.com",
+    "project_id": "qlntusers",
+    "storage_bucket": "qlntusers.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955817140075:android:1ce9debaa8f14a0565762e",
+        "android_client_info": {
+          "package_name": "com.thanhtai.qlntusers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "955817140075-5bdiblo4m6f1j8sd4bipv5vsqa6k8g4e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDr2dTIzQpGPQRiImtVfn3TqIQfQzFcuC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "955817140075-5bdiblo4m6f1j8sd4bipv5vsqa6k8g4e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
